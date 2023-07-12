@@ -22,7 +22,7 @@
 # 📖 Leader Board <a name="about-project"></a>
 
 
-**math-magician** Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -89,10 +89,12 @@ To get a local copy up and running, follow these steps.
 In the project directory, you can run:
 
     ```sh 
-      npm install
+       npm install
     ```
+Installs all dependencies of the project.
+
     ```sh 
-      npm start
+       npm start
     ```
 
 Installs and runs the app in the development mode.\
@@ -104,7 +106,7 @@ You may also see any lint errors in the console.
 #### Testing
 
     ```sh 
-      npm test
+       npm test
     ```
 
 Launches the test runner in the interactive watch mode.\
@@ -113,7 +115,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 #### Build
 
     ```sh 
-      npm run build
+       npm run build
     ```
 
 Builds the app for production to the `build` folder.\

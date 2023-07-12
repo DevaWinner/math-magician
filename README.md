@@ -75,9 +75,8 @@
 To get a local copy up and running, follow these steps.
 1. Clone this repository
    run
-   ```sh 
+   
       git clone git@github.com:DevaWinner/math-magician.git
-    ```
 
 2. Open the project in a text editor
 3. Open a terminal via CMD or in your code editor

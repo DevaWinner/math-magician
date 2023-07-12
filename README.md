@@ -75,25 +75,24 @@
 To get a local copy up and running, follow these steps.
 1. Clone this repository
    run
-   
+   ```sh 
       git clone git@github.com:DevaWinner/math-magician.git
+    ```
 
 2. Open the project in a text editor
 3. Open a terminal via CMD or in your code editor
-4. Run `npm install` - To install all dependencies of the project.
-5. Run `npm start` to serve and open the project on a development server.
 
 
 ### Prerequisites
 In the project directory, you can run:
-
-    ```sh 
-       npm install
+   
+   ```sh 
+      npm install
     ```
-Installs all dependencies of the project.
 
-    ```sh 
-       npm start
+   
+   ```sh 
+      npm start
     ```
 
 Installs and runs the app in the development mode.\
@@ -103,18 +102,18 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 #### Testing
-
-    ```sh 
-       npm test
+   
+   ```sh 
+      npm test
     ```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 #### Build
-
-    ```sh 
-       npm run build
+   
+   ```sh 
+      npm run build
     ```
 
 Builds the app for production to the `build` folder.\

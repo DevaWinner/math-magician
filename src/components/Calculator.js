@@ -52,3 +52,13 @@ function FourthLine() {
     </div>
   );
 }
+
+function FifthLine() {
+  return (
+    <div className="line fifth-line">
+      <button className="fifth-line-button first" type="button">0</button>
+      <button className="fifth-line-button" type="button">.</button>
+      <button className="fifth-line-button last" type="button">=</button>
+    </div>
+  );
+}

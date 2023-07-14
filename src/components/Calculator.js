@@ -8,7 +8,6 @@ function ResultLine() {
   );
 }
 
-
 function FirstLine() {
   return (
     <div className="line first-line">

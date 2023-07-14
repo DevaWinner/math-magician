@@ -10,7 +10,7 @@ function FirstLine() {
   return (
     <div className="line first-line">
       <button className="first-line-button" type="button">AC</button>
-      <button className="first-line-button" type="button">+-</button>
+      <button className="first-line-button" type="button">+/-</button>
       <button className="first-line-button" type="button">%</button>
       <button className="first-line-button last" type="button">+</button>
     </div>

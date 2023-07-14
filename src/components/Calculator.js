@@ -41,3 +41,14 @@ function ThirdLine() {
     </div>
   );
 }
+
+function FourthLine() {
+  return (
+    <div className="line fourth-line">
+      <button className="fourth-line-button" type="button">1</button>
+      <button className="fourth-line-button" type="button">2</button>
+      <button className="fourth-line-button" type="button">3</button>
+      <button className="fourth-line-button last" type="button">+</button>
+    </div>
+  );
+}

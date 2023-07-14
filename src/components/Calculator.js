@@ -30,3 +30,14 @@ function SecondLine() {
     </div>
   );
 }
+
+function ThirdLine() {
+  return (
+    <div className="line third-line">
+      <button className="third-line-button" type="button">4</button>
+      <button className="third-line-button" type="button">5</button>
+      <button className="third-line-button" type="button">6</button>
+      <button className="third-line-button last" type="button">-</button>
+    </div>
+  );
+}

@@ -63,6 +63,7 @@
 ### Key Features <a name="key-features"></a>
 
 - [ ] **SPA**
+- [ ] **Calculator UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +141,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add more app content**
+- [ ] **Add functionality to Calculator**
+- [ ] **Add other content to web page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

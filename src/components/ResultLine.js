@@ -11,4 +11,15 @@ function ResultLine({ total, operation, next }) {
   );
 }
 
+ResultLine.propTypes = {
+  total: PropTypes.number.isRequired,
+  operation: PropTypes.string,
+  next: PropTypes.string,
+};
 
+ResultLine.defaultProps = {
+  operation: null,
+  next: null,
+};
+
+export default ResultLine;

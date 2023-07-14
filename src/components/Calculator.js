@@ -19,3 +19,14 @@ function FirstLine() {
     </div>
   );
 }
+
+function SecondLine() {
+  return (
+    <div className="line second-line">
+      <button className="second-line-button" type="button">7</button>
+      <button className="second-line-button" type="button">8</button>
+      <button className="second-line-button" type="button">9</button>
+      <button className="second-line-button last" type="button">x</button>
+    </div>
+  );
+}

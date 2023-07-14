@@ -62,3 +62,18 @@ function FifthLine() {
     </div>
   );
 }
+
+function Calculator() {
+  return (
+    <div className="calculator">
+      <ResultLine />
+      <FirstLine />
+      <SecondLine />
+      <ThirdLine />
+      <FourthLine />
+      <FifthLine />
+    </div>
+  );
+}
+
+export default Calculator;

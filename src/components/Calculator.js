@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './stylesheet/calculator.css';
+import '../stylesheet/calculator.css';
 import {
   FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine,
 } from './buttons';

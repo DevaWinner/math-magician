@@ -39,7 +39,7 @@ button {
   outline: none;
   background-color: var(--button);
   font-size: 1.2rem;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 button:hover {

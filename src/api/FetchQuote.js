@@ -32,3 +32,26 @@ function FetchQuote() {
       setError(true);
     }
   };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  if (isLoading) return <div className="quote-container">Loading...</div>;
+
+  if (error) return <div className="quote-container">Something went wrong!</div>;
+
+  if (data) {
+    return (
+      <div className="quote-container">
+        <p className="quote">
+          "
+          {data.quote}
+          "
+        </p>
+      </div>
+    );
+  }
+}
+
+export default FetchQuote;

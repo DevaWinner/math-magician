@@ -66,7 +66,7 @@ function FifthLine({ handleClick }) {
     <div className="line fifth-line">
       <button className="fifth-line-button first" type="button" onClick={handleClick}>0</button>
       <button className="fifth-line-button" type="button" onClick={handleClick}>.</button>
-      <button className="fifth-line-button last" type="button" onClick={handleClick}>=</button>
+      <button className="last equal" type="button" onClick={handleClick}>=</button>
     </div>
   );
 }

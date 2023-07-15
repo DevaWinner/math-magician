@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --button: #e0e0e0;
+  --button-hover: #d8d8d8;
+  --last-button: #f5913e;
+  --last-button-hover: #e07e3e;
+  --result-bar: #858694;
+  --white: #fff;
+  --background: #ebdada;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Roboto', sans-serif;
+  font-size: 65.2%;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 3em;
+}

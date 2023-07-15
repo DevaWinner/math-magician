@@ -45,9 +45,9 @@ function FetchQuote() {
     return (
       <div className="quote-container">
         <p className="quote">
-          "
+          &quot;
           {data.quote}
-          "
+          &quot;
         </p>
       </div>
     );

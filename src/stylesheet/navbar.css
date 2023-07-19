@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2% 2.5%;
+  background-color: var(--last-button-hover);
+  border-radius: 15px;
+}
+
+header h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav a:not(:last-child) {
+  border-right: 5px solid var(--white);
+  margin-right: 1.5rem;
+  padding: 0 1rem;
+}

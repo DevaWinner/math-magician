@@ -21,6 +21,9 @@ body {
   width: 100%;
 }
 
+#root {
+  padding: 1.5%;
+}
 
 .app {
   display: flex;

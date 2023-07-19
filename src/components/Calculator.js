@@ -18,13 +18,16 @@ function Calculator() {
   };
 
   return (
-    <div className="calculator">
-      <ResultLine total={obj.total} operation={obj.operation} next={obj.next} />
-      <FirstLine handleClick={handleClick} />
-      <SecondLine handleClick={handleClick} />
-      <ThirdLine handleClick={handleClick} />
-      <FourthLine handleClick={handleClick} />
-      <FifthLine handleClick={handleClick} />
+    <div className="container">
+      <h2>Let do some mathematics!</h2>
+      <div className="calculator">
+        <ResultLine total={obj.total} operation={obj.operation} next={obj.next} />
+        <FirstLine handleClick={handleClick} />
+        <SecondLine handleClick={handleClick} />
+        <ThirdLine handleClick={handleClick} />
+        <FourthLine handleClick={handleClick} />
+        <FifthLine handleClick={handleClick} />
+      </div>
     </div>
   );
 }

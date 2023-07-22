@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live View](https://devawinner.github.io/to-do-project/dist/) 
+- [Live View](https://math-magicians-ex9i.onrender.com) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -67,8 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live View](https://math-magicians-ex9i.onrender.com) 
-
+- [Live View](https://math-magician-r5x5.onrender.com) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
